@@ -2,7 +2,7 @@
 <body>
   <script type="text/javascript">
   function sendPostMsg() {
-    var bobWindows = document.getElementById('bob').contentWindow; 
+    var bobWindow = document.getElementById('bob').contentWindow; 
     bobWindow.postMessage("Hi Bob!", "https://domain-m.github.io");
   }
   </script>
